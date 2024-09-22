@@ -2,5 +2,66 @@
 {
     background-image: url('Object.png');
     width: 100%;
-    height: 700px;
+    height: 1000px;
+    color: white;
+}
+.header{
+    margin-left: 300px;
+    padding-top: 50px;
+   
+#course{
+    padding-left: 450px;
+    color: white;
+}
+}
+#spacing{
+    padding-left: 50px;
+    color: white;
+}
+#login{
+    padding-left: 50px;  
+    color: white;
+}
+.hometext{
+    margin-left: 27%;
+    padding-top: 150px;
+}
+#smiles{
+    padding-left: 100px;  
+    color: white; 
+}
+#grin{
+    padding-left: 50px;  
+    color: white;  
+}
+#laugh{
+    padding-left: 50px;  
+    color: white;    
+}
+#get{
+    font-size: 90px;
+}
+#submit{
+    border-radius: 50px;
+    height: 40px;
+    background-color: rgb(235, 98, 189);
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.prolist{
+    display: flex;
+    margin-left: 200px;
+}
+#pro{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 50px;
+    
+}
+#image1,#image2,#image3,#image4{
+    border-radius: 50%;
+    margin-left: 50px;
+}
+.text1,.text2{
+   margin-left: 80px; 
 }
