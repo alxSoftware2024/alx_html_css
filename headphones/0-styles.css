@@ -63,10 +63,38 @@ header{
     margin: 0 30px;
     color: whitesmoke;
 }
+/*Page 2*/
+section{
+    width:80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
 /*Mobile Device*/
-@media only screen and (max-width:100px)
+@media only screen and (max-width:850px)
 {
 .navbar{
     padding: 0;
+}
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.nav-links{
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background: #484872;
+}
+.nav-links li{
+    margin: 30px auto;
 }
 }
