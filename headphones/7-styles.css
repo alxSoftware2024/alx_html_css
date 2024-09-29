@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.active{
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('headphones_hero_1.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 100px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.header-content h1{
+    font-size: 7vmin;
+    padding-bottom: 40px;
+}
+.ctn{
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+    margin-bottom: 200px;
+}
+/*Nav bar*/
+.navbar{
+    position: absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+.nav-links li{
+    margin: 0 30px;
+    color: whitesmoke;
+}
+/*Page 2*/
+.events{
+    width:80%;
+    margin: 80px auto;
+}
+.event1{
+    width:80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events .row{
+    margin-top: 50px;
+}
+/*Page 3*/
+.event1{
+    background-image: url('headphones_hero_2.jpg');
+    width: 100%;
+    height: 450px;
+    
+}
+.title{
+    margin: 80px auto;
+}
+.pentagone{
+   width: 200px;
+   height: 120px;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+/*form*/
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+#contact{
+    margin-bottom: 40px;
+    padding-left: 80px;
+}
+#form-div {
+	background-color:white;
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 50%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: red;
+	color:white;
+	font-size:24px;
+	padding-top:12px;
+	padding-bottom:12px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+  border-radius: 30px;
+  margin-left: 80px;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+	
+.submit:hover {
+	color: #3498db;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+   
+/*Mobile Device*/
+@media only screen and (max-width:850px)
+{
+.navbar{
+    padding: 0;
+}
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.nav-links{
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background: #484872;
+}
+.nav-links li{
+    margin: 30px auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#form-div{
+    left: 3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left:50px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+}
